@@ -1,0 +1,16 @@
+{
+   "name": "Nsite",
+   "tagline": "Resolving ...",
+   "hidemenu": false,
+   "filehash": "95014506924cad1597f4e56b1504ba9451372f4c1a0ee16c5c1218b25f37021b",
+   "blossomservers": [
+      "https://cdn.satellite.earth/",
+      "https://blossom.nostr.hu/",
+      "https://cdn.nostrcheck.me/"
+      
+   ],
+   "relays": [
+      "wss://relay.damus.io",
+      "https://relay.magnifiq.tech/"
+   ]
+  }
