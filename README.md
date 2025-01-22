@@ -18,6 +18,14 @@ So this means that only the File Hash Name is the only way without writing your 
 ( See How it should be structured in the resolver )
 
 
+### Github Action Way ( Currently A Concept )
+
+- The Public Folder is used to upload to multiple blossom servers.
+This would require the github Action to have access to a Nsec ⚠️
+
+- Once Uploaded a new Event of Kind 34128 gets broadcasted with the new index.html & file hash. 
+
+
 
 # NSITE RESOLVER
 
@@ -49,6 +57,19 @@ This means everytime you upload a new Simple Website you will need to update the
       matchingEvent.value = Array.from(events).find((event) =>
         event.tags.some((tag) => tag[0] === "d" && tag[1] === "index.html")
       );
+
+
+#### How to deploy this repo ? 
+
+Click the clone Template on the top of this repo to clone it to your own Account.
+
+Next choose a cloudhost ( Cloudflare, Vercell, Netlify, ... ) Provide them with access to the repo.
+
+Select NuxtJS as a build framework and Biep Boop ... deploy.
+
+
+
+
 
 
 
